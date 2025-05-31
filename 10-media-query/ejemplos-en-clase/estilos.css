@@ -1,0 +1,64 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+     box-sizing: border-box; 
+}
+
+boby, html{
+    line-height: 1.5;
+    height: 100%;
+}
+/* el codigo empieza aqui */
+
+.wrapper{
+    background-color: rgb(175, 174, 174);
+    margin: auto 80px ;
+}
+
+
+/*
+ Se puede interpretra como "=<" (igual o menor que)
+@media (max-width: 600px) {
+ 
+    .wrapper {
+        font-family:'Times New Roman', Times, serif ;
+        margin: auto 16px;
+        background-color: rgb(127, 153, 162);
+    }
+} */
+
+/* Cuando tenga una anchura de 600px o menos*/
+
+/*
+ Se puede interpretra como "=>" (igual o mayor que) 
+@media (min-width: 600px) {
+    .wrapper {
+        font-family:'Times New Roman', Times, serif ;
+        margin: auto 16px;
+        background-color: rgb(14, 124, 161);
+    }
+} */
+/* Cuando tenga una anchura de 600px o mas*/
+
+/* @media screen and (min-width:800px){
+
+    .wrapper{
+        font-family:'Times New Roman', Times, serif ;
+        margin: auto 16px;
+        background-color: rgb(14, 124, 161);
+    }
+} */
+ /* cuando llega a una anchura de 800 px a mas , aplica lo siguiente*/
+/* 
+@media (min-width: 600px) and (max-width: 900px) {
+    .wrapper{
+        background: pink;
+    }
+} */
+
+/* @media only (max-width: 900px) {
+    .wrapper{
+        background: pink;
+    }
+} */

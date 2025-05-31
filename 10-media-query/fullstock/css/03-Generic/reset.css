@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  box-sizing: border-box;
+}
+
+
+boby,
+html {
+  line-height: 1.5;
+  height: 100%;
+  background-color: var(--white);
+  font-family: "Inter", system-ui;
+}

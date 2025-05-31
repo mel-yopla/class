@@ -1,0 +1,18 @@
+/* Aqui van a vivir todas las importaciones de todos los archivos css*/
+@import url("./01-Settings/variables.css");
+
+@import url("./03-Generic/reset.css");
+
+@import url("./04-Elements/base.css");
+
+@import url("./05-Objects/container.css");
+@import url("./05-Objects/flex.css");
+@import url("./05-Objects/typography.css");
+
+@import url("./06-Components/main-nav.css");
+@import url("./06-Components/cards.css");
+
+@import url("./06-Components/header.css");
+@import url("./06-Components/menu.css");
+@import url("./06-Components/main-content.css");
+@import url("./06-Components/button.css");

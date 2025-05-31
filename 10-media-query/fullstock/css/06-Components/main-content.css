@@ -1,0 +1,11 @@
+
+
+.main-content__title {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-xl);
+}
+
+.main-content__description {
+  font-weight: var(--font-weight-normal);
+  font-size: var(--text-m);
+}

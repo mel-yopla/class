@@ -1,0 +1,32 @@
+.header {
+  padding: 4px 16px;
+}
+
+.header__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 128px;
+  height: 32px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header__icon {
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+}
+
+.header__separator {
+  border-left: 1px solid var(--separator-gray-color);
+  height: 24px;
+  margin: 0 10px;
+}

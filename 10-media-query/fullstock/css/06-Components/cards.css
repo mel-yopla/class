@@ -1,0 +1,34 @@
+.card {
+  border: 1px solid #d9d9e0;
+  background-color: #00005506;
+  border-radius: 1px;
+  width: 328px;
+  height: 569.33px;
+  margin: 32px;
+}
+
+.polo {
+  width: 328px;
+  height: 437.33px;
+  background-size: cover;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.card__paragraph {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card__price {
+  font-weight: 500;
+  font-size: 16px;
+  color: #1c2024;
+}
+
+.card__description {
+  padding: 16px 8px;
+}

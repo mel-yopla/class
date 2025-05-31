@@ -1,0 +1,26 @@
+/* Variables for FullStock */
+:root {
+  /* Define color used */
+  --white: #ffffff;
+  --black: #000000;
+
+  --separator-gray-color: #d9d9e0;
+  --main-text-color: #60646c;
+  --primary-background: #5b5bd6;
+
+  --foreground: #1c2024;
+  --muted-foreground: #60646c;
+  --muted-background: #00005506;
+  --secondary-background: #f0f0f3;
+
+  /* Pesos de las letras*/
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+
+  --text-xs: 14px;
+  --text-s: 16px;
+  --text-m: 20px;
+  --text-l: 24px;
+  --text-xl: 36px;
+}

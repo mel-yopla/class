@@ -1,0 +1,39 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+     box-sizing: border-box; 
+}
+
+boby, html{
+    line-height: 1.5;
+    height: 100%;
+}
+
+:root {
+  /* Breakpoints */
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-large: 1200px;
+  
+  /* Spacing variables */
+  --page-padding-mobile: 16px;
+  --page-padding-desktop: 32px;
+  
+  /* Otras variables útiles */
+  --max-width: 1200px;
+  --header-height: 80px;
+}
+
+.wrapper {
+  padding: var(--page-padding-mobile);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: var(--page-padding-desktop);
+  }
+}

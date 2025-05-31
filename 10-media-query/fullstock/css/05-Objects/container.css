@@ -1,0 +1,8 @@
+.main-img-container {
+  height: 66.5vh;
+  background-image: url(/fullstock/assets/icons/hero.jpg);
+  background-position: top;
+  background-size: cover;
+  padding: 128px 16px;
+  color: var(--white);
+}
